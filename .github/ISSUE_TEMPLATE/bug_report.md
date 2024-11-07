@@ -1,23 +1,18 @@
 ---
 name: Bug report
 about: Create a report to help me improve
-title: ''
-labels: ''
+title: "[BUG]"
+labels: bug
 assignees: ''
 
 ---
 
-**What component(s) does this affect?**
+**What page(s) does this affect?**
 - [ ] All
 - [ ] Home Page
-- [ ] Weekly Wants Page
-- [ ] Bugs Page
-- [ ] Fish Page
-- [ ] Dishes Page
-- [ ] Furniture Page
 - [ ] Navigation Drawer (left side)
-- [ ] Information Drawer (right side)
 - [ ] Header
+- [ ] New Page
 
 **Describe the bug**
 A clear and concise description of what the bug is.
