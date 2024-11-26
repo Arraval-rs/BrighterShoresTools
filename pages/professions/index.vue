@@ -1,5 +1,5 @@
 <template>
   <div class="page">
-    Dashboard Page
+    Profession Dashboard Page
   </div>
 </template>

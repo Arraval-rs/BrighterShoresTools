@@ -1,5 +1,5 @@
 <template>
   <div class="page">
-    Home Page
+    Account Dashboard Page
   </div>
 </template>

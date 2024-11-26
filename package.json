@@ -10,11 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@firebase/app-types": "^0.9.3",
     "@nuxt/ui": "^2.19.2",
     "@nuxt/ui-pro": "^1.5.0",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^5.1.1",
     "nuxt": "^3.14.1592",
+    "nuxt-vuefire": "^1.0.4",
     "vue": "latest",
     "vue-router": "latest",
+    "vuefire": "^3.2.0",
     "vuetify-nuxt-module": "^0.18.3"
   },
   "devDependencies": {

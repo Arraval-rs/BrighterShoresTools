@@ -17,7 +17,7 @@
     },
     {
       label: "Dashboard",
-      to: "/dashboard"
+      to: "/professions"
     },
     {
       label: "Act 1",
