@@ -1,0 +1,44 @@
+:root {
+	--brighter-shores-blue: rgba(33, 60, 96, 1);
+	--brighter-shores-light-blue: rgba(134, 166, 178, 1);
+	--brighter-shores-pale-blue: rgba(194, 206, 212, 1);
+	--brighter-shores-yellow: rgba(220, 167, 90, 1);
+	--brighter-shores-light-yellow: rgba(241, 197, 111, 1);
+	--brighter-shores-gray: rgba(42, 42, 42, 1);
+
+	--text-dark: rgb(0, 0, 0);
+	--text-light: rgb(255, 255, 255);
+
+	--rarity-common:  rgba(68, 154, 125, 1);
+	--rarity-uncommon:  rgba(55, 104, 187, 1);
+	--rarity-rare:  rgba(141, 68, 159, 1);
+	--rarity-epic:  rgba(218, 136, 55, 1);
+}
+
+body {
+  margin: 0;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
