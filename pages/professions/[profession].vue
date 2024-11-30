@@ -10,8 +10,8 @@
 <template>
   <div class="page">
     Profession Page for {{route.params.profession}}
-    <p>
+    <pre>
       {{professionData}}
-    </p>
+    </pre>
   </div>
 </template>

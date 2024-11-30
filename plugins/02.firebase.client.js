@@ -2,14 +2,12 @@ import { collection, doc } from "firebase/firestore"
 
 export default defineNuxtPlugin((nuxtApp) => {
   const db = useFirestore();
-  const user = "test-user"
-  const userData = doc(db, "users/" + user)
-  const userProfessions = collection(db, "users/" + user + "/characters")
+  const userData = doc(db, "users/" + nuxtApp.currentUser)
+  const userProfessions = collection(db, "users/" + nuxtApp.currentUser + "/characters")
 
   return {
     provide: {
       db,
-      user,
       userData,
       userProfessions
     },

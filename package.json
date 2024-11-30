@@ -6,6 +6,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "prepreview": "nuxi build",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -14,8 +15,8 @@
     "@nuxt/ui": "^2.19.2",
     "@nuxt/ui-pro": "^1.5.0",
     "firebase": "^10.14.1",
-    "firebase-admin": "^12.7.0",
     "firebase-functions": "^5.1.1",
+    "firebaseui": "^6.1.0",
     "nuxt": "^3.14.1592",
     "nuxt-vuefire": "^1.0.4",
     "vue": "latest",

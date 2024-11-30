@@ -1,8 +1,9 @@
 <script setup>
+
 </script>
 
 <template>
   <div class="page">
-    Account Dashboard Page
+    Development Page
   </div>
 </template>
