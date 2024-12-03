@@ -1,14 +1,4 @@
 <script setup>
-  import { onMounted } from "vue";
-
-  const { $ui, $uiConfig, $currentUser } = useNuxtApp();
-
-  onMounted(() => {
-    if($currentUser.value == null) {
-      $ui.start("#firebaseui-auth-container", $uiConfig);
-    }
-  });
-
   const colorMode = useColorMode()
   const isDark = computed({
     get () {
@@ -74,7 +64,6 @@
 		<div class="header-footer-item">Brighter Shores Tools</div>
 		<horizontalNavBar class="header-footer-item" style="text-align:center" :links="links"/>
 		<div class="header-footer-item" style="text-align:right">
-      <div v-if="$currentUser==null" id="firebaseui-auth-container"></div>
       <ClientOnly>
         <UButton :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'" @click="isDark = !isDark" />
       </ClientOnly>
